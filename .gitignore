@@ -1,0 +1,2 @@
+﻿docker/postgres-data/*
+*.bak
