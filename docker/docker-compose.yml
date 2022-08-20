@@ -16,8 +16,8 @@ services:
     ms-customer-order-svc:
         ports:
             - '8080:8080'
-        #environment:
-            #POSTGRES_URL: postgresql://postgres:5432/postgres
+        environment:
+            POSTGRES_URL: jdbc:postgresql://postgres:5432/postgres
         image: ms-customer-order-svc
         depends_on:
             - postgres
